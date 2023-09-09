@@ -1,30 +1,27 @@
-# Credit Card Validator Using Luhn Algorithm
+# GoHighLevel Wallet Frontend
 
-This project has been created using Vite. Frontend is built using React.js and backend is built using Express.js.
+This contains Frontend implementation
 
 # About the project implementation
 
 ## Tech Stack
 
 - Frontend Framework: React.js
-- Backend Framework: Express.js
-- CSS Framework: TailwindCSS
+- CSS Framework: Bootstrap
 - State Management: Jotai
-- Form Handling: React-Hooks-Form
-- Build Tool: Vitejs
 
 ## Run Locally
 
 Clone the project
 
 ```bash
- git clone https://github.com/tejassrivastava/credit-card-validator.git
+ git clone <Repo URL>
 ```
 
 Go to the project directory
 
 ```bash
-  cd pb_credit_card_validator
+  cd gohighlevel-wallet-fe
 ```
 
 Install dependencies
@@ -35,41 +32,20 @@ Install dependencies
 
 Start the server:
 
-this command will automatically start both the frontend as well as express server.
+this command will automatically start vite frontend
 
 ```bash
   npm run dev
 ```
 
+
 Navigate to:
 
 ```bash
-http://localhost:5173/
+http://localhost:5173
 ```
+------------
 
-API server
-
-```bash
-http://localhost:5173/api/validate
-```
-
-## API Reference
-
-#### Validate Credit Card
-
-```http
-  POST /api/validate
-```
-
-| Body Parameter     | Type     | Description   |
-| :----------------- | :------- | :------------ |
-| `creditCardNumber` | `string` | **Required**. |
-
-#### Returns Credit Card Number Valid Status
-
-```
-{isValid: <Boolean>}
-```
 
 ## Authors
 
