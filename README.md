@@ -1,4 +1,4 @@
-# GoHighLevel Wallet Frontend
+# Wallet Frontend
 
 This contains Frontend implementation
 
